@@ -9,9 +9,8 @@ if (window.isSecureContext) {
 
     // TODO: benchmark this and figure out if it shouldn't be computed on each
     // request
-    let ranges = [];
     let number_of_possible_cohort_ids = 0;
-    for (const range of settings.cohort_id_range.split(",")) {
+    const ranges = settings.cohort_id_range.split(",").map(range => {
       const range_split = range.split("-");
       let max;
       if (range_split.length == 1) {
@@ -24,8 +23,8 @@ if (window.isSecureContext) {
       } else {
         // TODO guarantee this is unreachable or do something if it isn't
       }
-      ranges.push([number_of_possible_cohort_ids, max]);
-    }
+      return [number_of_possible_cohort_ids, max];
+    });
 
     const cohort_index = Math.floor(Math.random() * number_of_possible_cohort_ids);
     const range = ranges[ranges.findIndex(range => cohort_index < range[0])];
