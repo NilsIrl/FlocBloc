@@ -1,6 +1,6 @@
 {
   "name": "obFLoCator",
-  "version": "0.0.1",
+  "version": "0.2",
   "description": "WebExtension to obfuscate your cohort ID",
   "private": true,
   "repository": {
