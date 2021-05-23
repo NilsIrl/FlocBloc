@@ -15,6 +15,3 @@ const DEFAULT_SETTINGS = {
 function load_settings() {
   return browser.storage.local.get(DEFAULT_SETTINGS);
 }
-
-//Content scripts cannot use native modules
-//export { DEFAULT_SETTINGS, load_settings };

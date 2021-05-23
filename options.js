@@ -1,5 +1,3 @@
-//import { DEFAULT_SETTINGS, load_settings } from "./settings.mjs";
-
 window.onload = (event) => {
   load_settings().then(settings => {
     let form = document.forms.options;
