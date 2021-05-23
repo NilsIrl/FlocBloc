@@ -1,10 +1,10 @@
-# floc-spoofer
+# obFLoCator
 
 A browser extension that obfuscates your cohort id. When the extension is
 installed, websites when requesting your cohort id will be given a cohort id
 that is generated randomly instead one which about your behaviour.
 
-Floc-spoofer is similar in spirit to [AdNauseam][0].
+obFLoCator is similar in spirit to [AdNauseam][0].
 
 ## Installation
 
@@ -25,7 +25,7 @@ $ ./build.sh
 
 ## License and Copyright
 
-floc-spoofer is licensed under the GNU GENERAL PUBLIC LICENSE Version 2.
+obFLoCator is licensed under the GNU GENERAL PUBLIC LICENSE Version 2.
 
 Copyright © 2020 Nils André-Chang
 

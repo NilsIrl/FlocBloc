@@ -1,18 +1,18 @@
 {
-  "name": "floc-spoofer",
+  "name": "obFLoCator",
   "version": "0.0.1",
   "description": "WebExtension to obfuscate your cohort ID",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NilsIrl/floc-spoofer.git"
+    "url": "git+https://github.com/NilsIrl/obFLoCator.git"
   },
   "author": "Nils <nils@nilsand.re>",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/NilsIrl/floc-spoofer/issues"
+    "url": "https://github.com/NilsIrl/obFLoCator/issues"
   },
-  "homepage": "https://github.com/NilsIrl/floc-spoofer#readme",
+  "homepage": "https://github.com/NilsIrl/obFLoCator#readme",
   "devDependencies": {
     "web-ext": "^6.1.0",
     "webextension-polyfill": "^0.8.0"
