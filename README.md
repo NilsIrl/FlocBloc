@@ -1,12 +1,32 @@
 # floc-spoofer
-Spoof floc ID
 
-# Implementation questions
+A browser extension that obfuscates your cohort id. When the extension is
+installed, websites when requesting your cohort id will be given a cohort id
+that is generated randomly instead one which about your behaviour.
 
-1. Should [`all_frames`][0] be set to `true`?
-2. Should [`match_about_blank`][1] be set to `true`?
-3. Have a better way to include the polyfill
+Floc-spoofer is similar in spirit to [AdNauseam][0].
 
+## Installation
 
-[0]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts#all_frames
-[1]: https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts#match_about_blank
+## Usage
+
+By default, the extension will generate a new cohort id for each page, however,
+settings can be changed in the options page of the extension to change the
+range of possible cohort ids that can be generated and to generate cohort ids
+at different intervals (less often than for every page, or update it base on a
+time duration).
+
+## Building
+
+```
+$ npm i
+$ ./build.sh
+```
+
+## License and Copyright
+
+floc-spoofer is licensed under the GNU GENERAL PUBLIC LICENSE Version 2.
+
+Copyright © 2020 Nils André-Chang
+
+[0]: https://adnauseam.io
