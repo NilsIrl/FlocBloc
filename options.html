@@ -6,12 +6,24 @@
 </head>
 <body>
     <form name="options">
-        <label for="cohort_id_range">Cohort ID range (comma-separated ranges): </label>
-        <input type="input" name="cohort_id_range" id="cohort_id_range"><br>
-        <label for="cohort_id_update_interval">Cohort ID update interval</label>
-        <input type="input" name="cohort_id_update_interval" id="cohort_id_update_interval"><br>
-        <label for="cohort_version">Cohort version: </label>
-        <input type="input" name="cohort_version" id="cohort_version"><br>
+        <div>
+            <label for="cohort_id_range">Cohort ID range (comma-separated ranges): </label>
+            <input type="input" name="cohort_id_range" id="cohort_id_range" required pattern="\d+(-\d+)?(,\d+(-\d+)?)*">
+        </div>
+        <div>
+            <label for="cohort_id_update_interval">Cohort ID update interval</label>
+            <input type="number" name="cohort_id_update_interval" id="cohort_id_update_interval" required>
+            <span id="cohort_id_update_interval_type">
+                <input type="radio" name="cohort_id_update_interval_type" value="requests" id="cohort_id_update_interval_type_requests">
+                <label for="requests">Requests</label>
+                <input type="radio" name="cohort_id_update_interval_type" value="seconds" id="cohort_id_update_interval_type_seconds">
+                <label for="seconds">Seconds</label>
+            <span>
+        </div>
+        <div>
+            <label for="cohort_version">Cohort version: </label>
+            <input type="input" name="cohort_version" id="cohort_version"><br>
+        </div>
         <input type="submit" id="form_submit">
         <input type="reset">
     </form>
