@@ -1,7 +1,9 @@
 const DEFAULT_SETTINGS = {
   // Defines the default values
   // These should also be updated in the value fields of options.html
-  cohort_id_range: "0-4294967295",
+  // Obtained from `wc -c Google/Chrome/Floc/<version>/SortingLshClusters`
+  // Thanks to Bennet Cyphers for explaining how to obtain this number
+  cohort_id_range: "1-33872",
   cohort_id_update_interval: 1,
   cohort_id_update_interval_type: "requests",
   cohort_version: "chrome/1.1",
