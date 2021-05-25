@@ -1,6 +1,6 @@
 {
   "name": "FlocBloc",
-  "version": "0.2",
+  "version": "0.2.1",
   "description": "WebExtension to obfuscate your cohort ID",
   "private": true,
   "repository": {
