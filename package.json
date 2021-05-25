@@ -1,18 +1,18 @@
 {
-  "name": "obFLoCator",
+  "name": "FlocBloc",
   "version": "0.2",
   "description": "WebExtension to obfuscate your cohort ID",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NilsIrl/obFLoCator.git"
+    "url": "git+https://github.com/NilsIrl/FlocBloc.git"
   },
   "author": "Nils <nils@nilsand.re>",
   "license": "GPL-2.0-or-later",
   "bugs": {
-    "url": "https://github.com/NilsIrl/obFLoCator/issues"
+    "url": "https://github.com/NilsIrl/FlocBloc/issues"
   },
-  "homepage": "https://github.com/NilsIrl/obFLoCator#readme",
+  "homepage": "https://github.com/NilsIrl/FlocBloc#readme",
   "devDependencies": {
     "web-ext": "^6.1.0",
     "webextension-polyfill": "^0.8.0"
