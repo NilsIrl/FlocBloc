@@ -58,9 +58,6 @@ if (window.isSecureContext) {
       id: settings.id,
     });
 
-
-    // TODO: fake this shit
-    // https://stackoverflow.com/questions/67392780/how-to-override-tostring-recursively-on-a-function
     scriptElement.innerHTML = `
 document.interestCohort = function() {
   return new Promise((resolve, reject) => {
