@@ -2,7 +2,7 @@
 
 A browser extension that obfuscates your cohort id. When the extension is
 installed, websites when requesting your cohort id will be given a cohort id
-that is generated randomly instead one which reflects your behaviour.
+that is generated randomly instead of one which reflects on your behaviour.
 
 FlocBloc is similar in spirit to [AdNauseam][0].
 
