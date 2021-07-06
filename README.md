@@ -1,5 +1,7 @@
 # FlocBloc
 
+[![Get FlocBloc for Chrome](https://storage.googleapis.com/chrome-gcs-uploader.appspot.com/image/WlD8wC6g8khYWPJUsQceQkhXSlv1/mPGKYBIR2uCP0ApchDXE.png)](https://chrome.google.com/webstore/detail/flocbloc/bbmebjolbecbclhgmbecibbmdkniebbe)
+
 A browser extension that obfuscates your cohort id. When the extension is
 installed, websites when requesting your cohort id will be given a cohort id
 that is generated randomly instead of one which reflects on your behaviour.
