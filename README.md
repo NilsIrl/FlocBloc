@@ -25,15 +25,8 @@ $ ./build.sh
 
 ## License and Copyright
 
-The [logo](./assets/flocbloc-icon.png) is [originally][eff-logo-article] from
-the [EFF][eff-copyright] and distributed under the [Creative Commons
-Attribution License][ccal].
-
 FlocBloc is licensed under the GNU GENERAL PUBLIC LICENSE Version 2.
 
 Copyright © 2020 Nils André-Chang
 
 [0]: https://adnauseam.io
-[eff-logo-article]: https://www.eff.org/deeplinks/2021/03/google-testing-its-controversial-new-ad-targeting-tech-millions-browsers-heres
-[eff-copyright]: https://www.eff.org/copyright
-[ccal]: https://creativecommons.org/licenses/by/3.0/us/
